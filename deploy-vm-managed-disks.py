@@ -24,7 +24,7 @@ from azure.mgmt.compute import ComputeManagementClient
 
 credentials = ServicePrincipalCredentials(
     client_id='aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee',
-    secret='Passw0rd!23',
+    secret='somepassword',
     tenant='aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee'
 )
 subscription_name='Azure Subscription 1'
