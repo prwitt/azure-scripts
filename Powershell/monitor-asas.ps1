@@ -1,6 +1,6 @@
 <#
-    Description: This script probes Symantec's ASAv health, and updates all the Subnets UDR
-    from a Subscription, to point to an alternate ASAv in case a given ASAv fails to answer.
+    Description: This script probes NVA health, and updates all the Subnets UDR
+    from a Subscription, to point to an alternate NVA in case a given NVA fails to answer.
     Created on: Nov. 17, 2016
     Authours: Donald Wickham, Paulo Renato
     Version: 0.1
