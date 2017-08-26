@@ -67,9 +67,7 @@ vnets=network_client.virtual_networks.list(resource_group)
 print(vnets)
 for vnet in vnets:
     subnets=network_client.subnets.list(resource_group,vnet.name)
-    #print(dir(subnets))
     for subnet in subnets:
-        #print("{0} in {1}".format(subnet.name,vnet.name))
         if (subnet.name=='default'):
             nicsubnetid=subnet.id
             print (nicsubnetid)
@@ -100,7 +98,7 @@ def create_vm_parameters(nic_id, vm_reference):
                 'name': osdiskname,
                 'caching': 'ReadWrite',
                 'create_option': 'fromImage',
-                'disk_size_gb': 128
+                'disk_size_gb': 32
             },
         },
         'network_profile': {
