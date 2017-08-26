@@ -28,7 +28,7 @@ ForEach ($vnetname in $vnetlist) {
     }
 }
 #
-# define alternate ASAv based on the active and non-active UDR
+# define alternate NVA based on the active and non-active UDR
 #
 $AllRTnames = (Get-AzureRmRouteTable).Name
 ForEach ($SingleRT in $AllRTnames) {
@@ -38,7 +38,7 @@ ForEach ($SingleRT in $AllRTnames) {
 }
  
 #
-# probe the active ASAv, and if it is not avaiable, it updates the Subnet UDR to point to the alternate ASAv
+# probe the active NVA, and if it is not avaiable, it updates the Subnet UDR to point to the alternate NVA
 #
 if (test-Connection -ComputerName $nextHopIP -Count 1 -Quiet) {        
         write-Host "$Server is alive and Pinging " -ForegroundColor Green     
