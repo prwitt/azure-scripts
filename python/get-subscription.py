@@ -10,9 +10,9 @@ import requests
 
 authentication_endpoint = 'https://login.microsoftonline.com/'
 resource  = 'https://management.core.windows.net/'
-tenant_id= 'a6ea6fa8-b12f-44b5-b319-7956bcd4c58c'
-application_id= '60b63507-8600-4886-a876-ff57bd524358'
-application_secret= 'Welcome_123!'
+tenant_id= 'aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee'
+application_id= 'aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee'
+application_secret= 'FakePW!23'
 
 # get an Azure access token using the adal library
 context = adal.AuthenticationContext(authentication_endpoint + tenant_id)
