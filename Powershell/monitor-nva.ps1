@@ -2,7 +2,7 @@
     Description: This script probes NVA health, and updates all the Subnets UDR
     from a Subscription, to point to an alternate NVA in case a given NVA fails to answer.
     Created on: Nov. 17, 2016
-    Authours: Donald Wickham, Paulo Renato
+    Authours: Donald Wickham, Paulo Renato 
     Version: 0.1
 #>
 #list all Vnets in Subscription

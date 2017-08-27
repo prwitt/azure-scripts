@@ -3,7 +3,7 @@
     and create a CSV file with relevant information.
     Created on: Jan. 5, 2017
     Authours: Paulo Renato
-    Version: 0.1
+    Version: 0.1 
 #>
 get-date
 

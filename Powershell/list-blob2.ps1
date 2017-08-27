@@ -1,7 +1,7 @@
 ﻿<#
     Description: This lists all the blobs from a given storage account.
     Created on: Jan. 23, 2017
-    Authours: Paulo Renato
+    Authours: Paulo Renato 
     Version: 0.1
 #>
 $subscriptions = Get-AzurermSubscription
