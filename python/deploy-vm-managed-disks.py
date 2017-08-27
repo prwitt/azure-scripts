@@ -1,6 +1,6 @@
 #! /usr/bin/env python2.7
 """
-Created on Tue Mar 28 2017
+Created on Mar 28 2017
 @author: Paulo Renato
 e-mail: prenato@gmail.com
 version: 0.1 
