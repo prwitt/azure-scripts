@@ -25,7 +25,7 @@ SUBNETprefix="172.23.1.0/24"
 PIPname="pip-sandbox2-${VMname}"
 PIPallocation="Dynamic"
 NICname="nic-${VMname}"
-ADMINuser="prenato"
+ADMINuser="mysername"
 ADMINpassword="FakePassWord@1"
 TAGpair="AppOwner=AppOwnerName"
 
